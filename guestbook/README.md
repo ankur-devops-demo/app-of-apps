@@ -1,3 +1,6 @@
+kustomize-guestbook-app.yaml
+
+```yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -18,3 +21,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+```
